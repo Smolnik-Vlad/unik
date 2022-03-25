@@ -24,17 +24,28 @@ void helper(int *arr_int, string *arr_str, string str)
 	}
 }
 
-int* Library::ArrSuf(string str)
+
+ArrSuf::ArrSuf(string str)
 {
-	string* arr_str = new string[str.length()];
-	int* arr_int = new int[str.length()];
+	this->str = str;
+	this->arr_size = str.length();
+	string* arr_str = new string[arr_size];
+	int* arr_int = new int[arr_size];
 	helper(arr_int, arr_str, str);
-	return arr_int;
+
+	this->arrSuf_int = arr_int;
+	this->arrSuf_str = arr_str;
+	
 }
 
-string Library::Pref(string str1, int a, int b)
+int* ArrSuf::ArrSuf_get()
 {
-	string pref = "", suf1=str1.substr(a, str1.length()-a), suf2=str1.substr(b, str1.length()-b);
+	return arrSuf_int;
+}
+
+string ArrSuf::Pref(int a, int b)
+{
+	string pref = "", suf1=str.substr(a, str.length()-a), suf2=str.substr(b, str.length()-b);
 	int  size=min(suf1.length(), suf2.length());
 	for (int i = 0; i < size; i++)
 	{
@@ -45,12 +56,9 @@ string Library::Pref(string str1, int a, int b)
 	return pref;
 }
 
-string Library::Shift(string str)
+string ArrSuf::Shift()
 {
 	string str1;
-	string* arr_str = new string[str.length()];
-	int* arr_int = new int[str.length()];
-	helper(arr_int, arr_str, str);
-	str1 = arr_str[0] + str.substr(0, str.length() - arr_str[0].length());
+	str1 = arrSuf_str[0] + str.substr(0, str.length() - arrSuf_str[0].length());
 	return str1;
 }

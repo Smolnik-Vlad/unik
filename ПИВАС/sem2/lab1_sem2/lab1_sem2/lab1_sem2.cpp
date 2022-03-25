@@ -3,63 +3,70 @@
 #include <string>;
 using namespace std;
 
-void shift()
+void get_suf(int size, ArrSuf a)
 {
-	cout << "Введите строку для нахожденя минимального сдвига: ";
-	string str;
-	cin >> str;
-	Library a;
-	cout << a.Shift(str);
-}
+	int* suf_int = new int[size];
+	suf_int = a.ArrSuf_get();
 
-void pref()
-{
-	cout << "Введите строку и две позиции для нахождения префикса: ";
-	string str1, str;
-	int c, b;
-	cin >> str1 >> c >> b;
-	Library a;
-	str = a.Pref(str1, c, b);
-	if (str != "") cout << "Наибольший общий префикс: " << str;
-	else cout << "Общих префиксов нет!";
-}
-
-void suf_arr()
-{
-	cout << "Введите строку для нахождения суффиксного массива: ";
-	string str;
-	cin >> str;
-	int* arr = new int[str.length()];
-	Library a;
-	arr = a.ArrSuf(str);
-	for (int i = 0; i < str.length(); i++)
+	for (int i = 0; i < size; i++)
 	{
-		cout << arr[i] << ' ';
+		cout << suf_int[i];
 	}
-	delete[] arr;
+	cout << endl;
+	
+}
+
+void get_shift(ArrSuf a)
+{
+	string str;
+	str = a.Shift();
+	cout << str<<endl;
+}
+
+void get_MaxPref(ArrSuf a)
+{
+	int pos1, pos2;
+	string pref;
+	cout << "Введите номера элементов строки, с которых попробуем найти наибольший общий префикс: ";
+	cin >> pos1>>pos2;
+	pref = a.Pref(pos1, pos2);
+	cout << pref<<endl;
+
 }
 
 int main()
 {
 	setlocale(LC_ALL, "rus");
-	cout << "Выберете действия: 1.Суффиксный массив; 2.Нахождение наименьшего циклического сдвига строки 3.Наибольший общий префикс: ";
-	int switch_on;
-	cin >> switch_on;
-	 
-	switch (switch_on)
+	bool check = true;
+	while (check)
 	{
-	case 1:
-		suf_arr();
-		break;
+		cout << "Введите строку: ";
+		string str;
+		cin >> str;
+		ArrSuf a(str);
+		cout << "Выберите действие: 1. Найти суффиксный массив строки 2. Найти минимальный циклиеский сдвиг 3. Найти наибольший общий префикс двух подстрок 4. Выйти из программы: ";
+		int choose;
+		cin >> choose;
 
-	case 2:
+		switch (choose)
+		{
+		 case 1:
+			 get_suf(str.length(), a);
+			 break;
+		 case 2:
+			 get_shift(a);
+			 break;
+		 case 3:
+			 get_MaxPref(a);
+			 break;
+		 case 4:
+			 check = !check;
+			 break;
 
-		shift();
-		break;
-
-	case 3:
-		pref();
+		}
 	}
+	
+
 	
 	
 }

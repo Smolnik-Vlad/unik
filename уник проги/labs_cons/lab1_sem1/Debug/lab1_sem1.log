@@ -1,7 +1,0 @@
-﻿  lab1_sem1.cpp
-C:\Users\User\Desktop\уник\уник проги\labs_cons\lab1_sem1\lab1_sem1.cpp(17,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\User\Desktop\уник\уник проги\labs_cons\lab1_sem1\lab1_sem1.cpp(33,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\User\Desktop\уник\уник проги\labs_cons\lab1_sem1\lab1_sem1.cpp(49,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\User\Desktop\уник\уник проги\labs_cons\lab1_sem1\lab1_sem1.cpp(99,27): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\User\Desktop\уник\уник проги\labs_cons\lab1_sem1\lab1_sem1.cpp(142,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\User\Desktop\уник\уник проги\labs_cons\lab1_sem1\lab1_sem1.cpp(154,84): error C2065: math: необъявленный идентификатор

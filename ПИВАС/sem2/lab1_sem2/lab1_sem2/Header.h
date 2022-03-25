@@ -2,11 +2,17 @@
 #include<string>;
 using namespace std;
 
-class Library
+class ArrSuf
 {
+private:
+	string str;
+	int* arrSuf_int;
+	string* arrSuf_str;
+	int arr_size;
 public:
-	int* ArrSuf(string str);
-	string Pref(string str1, int a, int b);
-	string Shift(string str);
+	ArrSuf(string str);
+	int* ArrSuf_get();
+	string Pref( int a, int b);
+	string Shift();
 };
 

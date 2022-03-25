@@ -1,6 +1,13 @@
-﻿  sum.cpp
+﻿  lab1_sem2.cpp
+D:\уник\ПИВАС\sem2\lab1_sem2\lab1_sem2\lab1_sem2.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\уник\ПИВАС\sem2\lab1_sem2\lab1_sem2\Header.h(2,9): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\уник\ПИВАС\sem2\lab1_sem2\lab1_sem2\lab1_sem2.cpp(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\уник\ПИВАС\sem2\lab1_sem2\lab1_sem2\lab1_sem2.cpp(54,28): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  sum.cpp
 D:\уник\ПИВАС\sem2\lab1_sem2\lab1_sem2\sum.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
 D:\уник\ПИВАС\sem2\lab1_sem2\lab1_sem2\sum.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
 D:\уник\ПИВАС\sem2\lab1_sem2\lab1_sem2\Header.h(2,9): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-D:\уник\ПИВАС\sem2\lab1_sem2\lab1_sem2\sum.cpp(38,45): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\уник\ПИВАС\sem2\lab1_sem2\lab1_sem2\sum.cpp(31,31): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\уник\ПИВАС\sem2\lab1_sem2\lab1_sem2\sum.cpp(49,45): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
   lab1_sem2.vcxproj -> D:\уник\ПИВАС\sem2\lab1_sem2\x64\Debug\lab1_sem2.exe

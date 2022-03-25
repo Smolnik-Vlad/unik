@@ -1,0 +1,443 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-5="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#агрегатное_состояние -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#агрегатное_состояние">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#Соединение"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#жидкость"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#запах -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#запах">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#жидкость"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#запах"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#канцерогенность -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#канцерогенность">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#Соединение"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#количество -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#количество">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#количество_производства"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#процесс"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#компоненты -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#компоненты">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#природный_ресурс"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#компонент"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#краткое_обозначение -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#краткое_обозначение">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#Соединение"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#краткое_обозначение"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#химическая_формула"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#применение -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#применение">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#Соединение"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#промышленность"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#синтез -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#синтез">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#Соединение"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#компонент"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#составляющая_часть -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#составляющая_часть">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#Соединение"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#бензин"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#природный_ресурс"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#сырьё -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#сырьё">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#Соединение"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#продукт"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#токсичность -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#токсичность">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#Соединение"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#цвет -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#цвет">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#жидкость"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#цвет"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#PhH -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#PhH"/>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#С6H6 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#С6H6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#Соединение -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#Соединение"/>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#ароматический_углеводород -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#ароматический_углеводород">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#углеводород"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#бензин -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#бензин"/>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#жидкость -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#жидкость"/>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#запах -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#запах"/>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#количество_производства -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#количество_производства"/>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#компонент -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#компонент"/>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#краситель -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#краситель">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#продукт"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#краткое_обозначение -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#краткое_обозначение"/>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#лекарство -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#лекарство">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#продукт"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#органическое_соединение -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#органическое_соединение">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#химическое_соеднение"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#пластмасса -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#пластмасса">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#продукт"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#природный_ресурс -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#природный_ресурс"/>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#продукт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#продукт"/>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#промышленность -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#промышленность"/>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#простейший_углеводород -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#простейший_углеводород">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#углеводород"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#процесс -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#процесс"/>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#свойство -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#свойство"/>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#синтетическая_резина -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#синтетическая_резина">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#продукт"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#углеводород -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#углеводород"/>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#химическая_формула -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#химическая_формула"/>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#химическое_соеднение -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#химическое_соеднение">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#Соединение"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#цвет -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#цвет"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#PhH -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#PhH">
+        <rdf:type rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#краткое_обозначение"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#С6H6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#С6H6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#химическая_формула"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#бензол -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#бензол">
+        <rdf:type rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#ароматический_углеводород"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#органическое_соединение"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#простейший_углеводород"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#жидкость"/>
+        <PhH></PhH>
+        <С6H6></С6H6>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#бесцветная -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#бесцветная">
+        <rdf:type rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#цвет"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#жидкость -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#жидкость">
+        <rdf:type rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#жидкость"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#иные_компоненты -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#иные_компоненты">
+        <rdf:type rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#компонент"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#канцерогенный -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#канцерогенный">
+        <rdf:type rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#свойство"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#промышленные_масштабы -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#промышленные_масштабы">
+        <rdf:type rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#количество_производства"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#синтез -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#синтез">
+        <rdf:type rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#компонент"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#сладкий -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#сладкий">
+        <rdf:type rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#запах"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#специфический -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#специфический">
+        <rdf:type rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#запах"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#сырая_нефть -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#сырая_нефть">
+        <rdf:type rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#природный_ресурс"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#токсичный -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#токсичный">
+        <rdf:type rdf:resource="http://www.semanticweb.org/пользователь/ontologies/2022/2/untitled-ontology-5#свойство"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
